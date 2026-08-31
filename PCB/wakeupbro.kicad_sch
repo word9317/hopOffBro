@@ -2827,7 +2827,7 @@
 			)
 		)
 	)
-	(global_label "LED"
+	(global_label "DIN"
 		(shape input)
 		(at 140.97 140.97 180)
 		(fields_autoplaced yes)
@@ -2839,7 +2839,7 @@
 		)
 		(uuid "2b6e8a52-637a-47de-85db-692f0211826d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.5377 140.97 0)
+			(at 134.7795 140.97 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3043,7 +3043,7 @@
 			)
 		)
 	)
-	(global_label "LED"
+	(global_label "DIN"
 		(shape input)
 		(at 115.57 52.07 180)
 		(fields_autoplaced yes)
@@ -3055,7 +3055,7 @@
 		)
 		(uuid "e41473a7-1122-41d6-9f82-5550a4a387f6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 109.1377 52.07 0)
+			(at 109.3795 52.07 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3322,7 +3322,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 184.15 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -3721,7 +3721,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 212.09 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -3968,7 +3968,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-SMD"
+		(property "Footprint" "Seeed_Studio_XIAO_Series:XIAO-ESP32-C3-DIP"
 			(at 101.092 84.074 0)
 			(hide yes)
 			(show_name no)
@@ -4423,7 +4423,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 238.76 148.59 0)
 			(hide yes)
 			(show_name no)
@@ -5161,7 +5161,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_SK6812MINI_PLCC4_3.5x3.5mm_P1.75mm"
+		(property "Footprint" "LED_SMD:LED_SK6812MINI-E_3.2x2.8mm_P1.5mm_ReverseMount"
 			(at 157.48 148.59 0)
 			(hide yes)
 			(show_name no)
