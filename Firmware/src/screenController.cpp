@@ -4,12 +4,12 @@
 #include <SPI.h>
 
 // the screens pins(hopefully right)
-const int TFT_SCLK = 0; // labeled SCL on the screen
-const int TFT_MOSI = 1; // labeled SDA on the screen
-const int TFT_RST = 2;
-const int TFT_DC = 3;
-const int TFT_CS = 4;
-const int TFT_BL = 5;
+const int TFT_SCLK = D9;  // labeled SCL on the screen
+const int TFT_MOSI = D10; // labeled SDA on the screen
+const int TFT_RST  = D8;
+const int TFT_DC   = D4;
+const int TFT_CS   = D5;
+const int TFT_BL   = D6;
 
 bool screenInitialized = false;
 // create a class for the screen
