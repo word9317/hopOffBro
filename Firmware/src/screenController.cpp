@@ -32,7 +32,6 @@ void setScreenText(String message, uint8_t textSize, int cursorX, int cursorY )
 {
     if (screenInitialized)
     {
-        tft.fillScreen(ST77XX_BLACK); // clear the screen
         tft.setTextSize(textSize);    // set text size
         tft.setTextColor(ST77XX_WHITE);  // set the color
         tft.setCursor(cursorX, cursorY);          // cursor reset
