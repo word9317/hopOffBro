@@ -28,14 +28,14 @@ public:
 MyST7789 tft(TFT_CS, TFT_DC, TFT_MOSI, TFT_SCLK, TFT_RST);
 
 // set text on the tft display
-void setScreenText(String message, uint8_t textSize)
+void setScreenText(String message, uint8_t textSize, int cursorX, int cursorY )
 {
     if (screenInitialized)
     {
         tft.fillScreen(ST77XX_BLACK); // clear the screen
         tft.setTextSize(textSize);    // set text size
         tft.setTextColor(ST77XX_WHITE);  // set the color
-        tft.setCursor(0, 0);          // cursor reset
+        tft.setCursor(cursorX, cursorY);          // cursor reset
         tft.print(message);         // set message on clock to the message inputed into function
     }
 }
