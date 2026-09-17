@@ -55,3 +55,9 @@ String getDateString() {
   strftime(buffer, sizeof(buffer), "%Y-%m-%d", &timeinfo);
   return String(buffer);
 }
+
+void disconnectWiFi()
+{
+    WiFi.disconnect(true);
+    WiFi.mode(WIFI_OFF);
+}

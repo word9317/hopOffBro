@@ -7,7 +7,7 @@
 extern bool screenInitialized;
 
 void setupTFT();              
-void setScreenText(String message, uint8_t textSize);
-void clearScreen();
+void setScreenText(String message, uint8_t textSize, int cursorX, int cursorY);void clearScreen();
 void screenBacklightOn();
 void screenBacklightOff();
+void disconnectWiFi();
