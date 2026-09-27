@@ -11,6 +11,7 @@ An alarm clock built for standing desk workers, telling you to switch from sitti
 ![PCB render](Assets/PCBRender.png)
 ![CAD render](Assets/CADRemder.PNG)
 ![PCB](Assets/PCB.png)
+![schematic](Assets/Schematic.png)
 
 ## BOM:
 - 1x Seeed XIAO ESP32C3
